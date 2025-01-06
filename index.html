@@ -3,15 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <title>Site pessoal do Alex</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
+    <header>
+        <div class="interface">
+
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo alex.jpg" alt="Logo do site">
+                </a>
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+        </div>
+    </header>
+    
     <main>
-        <header>
-            <h1>Alex Silva</h1>
-            <img src="images/Alx.ico" alt="Imagem do curso">
-        </header>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>ANÁLISE, SUPORTE E DESENVOLVIMENTO DE SISTEMAS<span>.</span></h1>
+                        <P>Página pessoal para apresentação de minhas habilidades e portifólio</P>
+
+                        <div class="btn-contato">
+                            <a>
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                            <img src="images/Alx.ico" alt="Sou casado!">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="especialidades">
+            <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+            <div class="flex">
+                <div class="espec-box">
+                    <i class="bi bi-laptop"></i>
+                    <h3>Analista de sistemas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut officia dicta sunt voluptas autem neque quia harum eos inventore odit, porro eius corporis quibusdam eveniet architecto cumque perspiciatis, totam placeat!</p>
+                </div>
+                <div class="espec-box">
+                    <i class="bi bi-code-square"></i>
+                    <h3>Desenvolvedor de software</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut officia dicta sunt voluptas autem neque quia harum eos inventore odit, porro eius corporis quibusdam eveniet architecto cumque perspiciatis, totam placeat!</p>
+                </div>
+                <div class="espec-box">
+                    <i class="bi bi-headset"></i>
+                    <h3>Analista de suporte</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut officia dicta sunt voluptas autem neque quia harum eos inventore odit, porro eius corporis quibusdam eveniet architecto cumque perspiciatis, totam placeat!</p>
+                </div>
+            </div>
+        </section>
+
+
         <article>
             <h2>Repositorio do projeto de finalização do curso de Sistemas de Informação na UMC</h2>
             <img class="lado" src="images/school-solid-120.png" alt="Teste 1">
