@@ -227,6 +227,7 @@ section.topo-do-site .flex{
     animation: flutuar 2s ease-in-out infinite alternate;
     border: 0;
     border-radius: 30px;
+    z-index: 1;
 }
 
 
@@ -425,13 +426,14 @@ footer .line-footer p a{
   background-color: #00000047;
   backdrop-filter: blur(10px);
   position: absolute;
-  top: 200px;
+  top: 135px;
   left: 0;
   width: 100%;
   height: 0;
   visibility: hidden;
   transition: .5s;
   overflow: hidden;
+  z-index: 10;
 }
 
 .menu-mobile nav a{
