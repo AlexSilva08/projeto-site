@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /* Estilo do corpo*/
@@ -42,13 +42,13 @@ button:hover{
 
 h2.titulo{
     color: #fff;
-    font-size: 37px;
+    font-size: 35px;
     text-align: center;
 }
 
 h2.titulo span{
     color: #000dff;
-    font-size: 37px;
+    font-size: 35px;
 }
 
 /* Estilo das fonts do google*/
@@ -286,7 +286,7 @@ section.sobre{
 
 .sobre .txt-sobre{
   color: #fff;
-  font-size: 37px;
+  font-size: 35px;
 }
 
 section.sobre .flex{
@@ -304,15 +304,15 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2{
-  font-size: 45px;
-  line-height: 40px;
+  font-size: 35px;
+  line-height: 35px;
   margin-bottom: 30px;
 }
 
 .sobre .txt-sobre h2 span{
   color: #000dff;
   display: block;
-  font-size: 37px;
+  font-size: 35px;
 }
 
 .sobre .txt-sobre p{
@@ -393,13 +393,13 @@ footer .flex{
 
 h2.titulo{
   color: #fff;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 35px;
 }
 
 h2.titulo span{
   color: #000dff;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 footer .line-footer{
