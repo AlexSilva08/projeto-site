@@ -25,9 +25,9 @@
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#section1">Início</a></li>
+                    <li><a href="#section2">Especialidades</a></li>
+                    <li><a href="#section3">Projetos</a></li>
                 </ul>
             </nav>
 
@@ -39,14 +39,14 @@
 
             <div class="menu-mobile" id="menu-mobile">
                 <nav>
-                    <a href="#">Início</a>
-                    <a href="#">Especialidades</a>
-                    <a href="#">Projetos</a>
+                    <a href="#section1">Início</a>
+                    <a href="#section2">Especialidades</a>
+                    <a href="#section3">Projetos</a>
                 </nav>
             </div>
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="#section4">
                     <button>Contato</button>
                 </a>
             </div>
@@ -55,7 +55,7 @@
     </header>
     
     <main>
-        <section class="topo-do-site">
+        <section class="topo-do-site"  id="section1">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
@@ -63,7 +63,7 @@
                         <P>Página pessoal para apresentação de minhas habilidades e portifólio</P>
 
                         <div class="btn-contato">
-                            <a>
+                            <a href="#section4">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
@@ -75,7 +75,7 @@
             </div>
         </section><!--Topo-do-site-->
 
-        <section class="especialidades">
+        <section class="especialidades"  id="section2">
             <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
             <div class="flex">
                 <div class="espec-box">
@@ -121,28 +121,34 @@
             </div>
         </section><!--Sobre-->
 
-        <section class="portifolio">
+        <section class="portifolio" id="section3">
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTIFÓLIO.</span></h2>
                 <div class="flex">
-                    <div href="https://github.com/AlexSilva08/projeto-UMC.git" class="img-port" style="background-image: url(images/port1.jpg);">
-                        <div class="overlay">Projeto UMC</div>
-                        <a href="https://github.com/AlexSilva08/projeto-UMC.git"></a>
+                    <a href="https://github.com/AlexSilva08/projeto-UMC.git">
+                            <div class="img-port" style="background-image: url(images/port1.jpg);">
+                            <div class="overlay">Projeto UMC</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/AlexSilva08/ProjetoJava-CursoSENAI.git">
+                        <div class="img-port" style="background-image: url(images/port1.jpg);">
+                            <div class="overlay">Projeto Java SENAI</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/AlexSilva08/Kerygma.git">
+                    <div class="img-port" style="background-image: url(images/port1.jpg);">
+                        <div class="overlay">Projeto da plataforma Kerygma</div>
                     </div>
-                    <div class="img-port" href="https://github.com/AlexSilva08/ProjetoJava-CursoSENAI.git" style="background-image: url(images/port1.jpg);">
-                        <div class="overlay">Projeto Java SENAI</div>
-                    </div>
-                    <div class="img-port" href="https://github.com/AlexSilva08/Ola-mundo.git" style="background-image: url(images/port1.jpg);">
-                        <div class="overlay">Projeto Kerygma</div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section><!--Portifolio-->
+
     </main>
 
         <footer>
             <div class="interface">
-                <div class="line-footer">
+                <div class="line-footer" id="section4">
                     <div class="flex">
                     <div class="logo-footer">
                         <img src="images/logo alex.jpg" alt="Logo do site" width="300" height="120">
